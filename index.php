@@ -25,7 +25,7 @@ $authUrl = "https://public-api.wordpress.com/oauth2/authorize?" .
 <body>
     <h1>WordPress.com Connect Demo</h1>
     <p>This demo shows how to connect to WordPress.com using OAuth2.</p>
-    <a href="<?= htmlspecialchars($authUrl) ?>" class="login-btn">Connect with WordPress.com</a>
+    <a href="<?= htmlspecialchars($authUrl) ?>"><img src="//s0.wp.com/i/wpcc-button.png" width="231" /></a>
 </body>
 
 </html>

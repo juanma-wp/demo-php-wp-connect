@@ -32,41 +32,7 @@ if (isset($user['error'])) {
 
 <head>
     <title>Your WordPress.com Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .profile {
-            margin-top: 20px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-
-        .avatar {
-            float: left;
-            margin-right: 20px;
-            border-radius: 50%;
-        }
-
-        .logout-btn {
-            background: #cc1818;
-            color: white;
-            padding: 8px 12px;
-            text-decoration: none;
-            border-radius: 4px;
-            display: inline-block;
-            margin-top: 20px;
-        }
-
-        .logout-btn:hover {
-            background: #a01313;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>

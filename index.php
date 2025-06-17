@@ -19,27 +19,7 @@ $authUrl = "https://public-api.wordpress.com/oauth2/authorize?" .
 
 <head>
     <title>WordPress.com Connect Demo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .login-btn {
-            background: #0087be;
-            color: white;
-            padding: 10px 15px;
-            text-decoration: none;
-            border-radius: 4px;
-            display: inline-block;
-        }
-
-        .login-btn:hover {
-            background: #006799;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
